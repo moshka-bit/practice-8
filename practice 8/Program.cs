@@ -43,7 +43,7 @@ namespace practice_8
             {
                 Console.WriteLine($"-------------------------------------------------Вы в {i} комнате-------------------------------------------------------");
                 Random rnd = new Random();
-                int room = rnd.Next(2, 2); // 1, 7
+                int room = rnd.Next(1, 7); // 1, 7
                 ProcessRoom(room, specifications);
             }
             FightBoss(specifications);
